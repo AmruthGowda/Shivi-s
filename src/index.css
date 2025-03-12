@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 :root{
-    font-family: "Covered By Your Grace",sans-serif;
+    font-family: "poppins",sans-serif;
     background-color: #fafaf9;
 }
 
@@ -41,13 +41,13 @@
         font-family: "poppins"; 
     }
     input::placeholder{
-        font-family:"Covered By Your Grace";
-        font-size: 18px;
+        font-family:"poppins";
+        font-size: 12px;
         letter-spacing: 1.5px;
     }
     textarea::placeholder{
-        font-family:"Covered By Your Grace";
-        font-size: 18px;
+        font-family:"poppins";
+        font-size: 12px;
         letter-spacing: 1.5px;
     }
     textarea{

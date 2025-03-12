@@ -13,22 +13,22 @@ const Meals = () => {
       </div>
       <MenuNav />
       <div className='flex justify-center my-10 text-[25px] '>
-        <span className='underlinee'>Meals</span>
+        <span className='underlinee font-bold'>Meals</span>
       </div>
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Breakfast
+        <span className='underline font-semibold'>Breakfast</span>
       </div>
       <MealsItems />
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Lunch
+      <span className='underline font-semibold'>Lunch</span>
       </div>
       <LunchMeals />
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Dinner
+      <span className='underline font-semibold'>Dinner</span>
       </div>
       <DinnerMeals />
       <div className='flex justify-center'>
-        <Link to={"/"} className='text-[#e4ac34]'>Back To Home</Link>
+        <Link to={"/"} className='text-[#e4ac34] font-bold'>Back To Home</Link>
       </div>
     </section>
   )

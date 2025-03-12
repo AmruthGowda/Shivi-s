@@ -91,6 +91,39 @@ import sugarlime from "../assets/Sugarcane/sugarcane-lime.webp"
 import sugarmint from "../assets/Sugarcane/Sugarcane-mint.jpg"
 import sugarplain from "../assets/Sugarcane/sugarcane-plain.webp"
 
+import gudbud from "../assets/gudbud/gudbud.webp"
+import chocolatebrownie from "../assets/gudbud/browniicecream.webp"
+import chocolateFudge from "../assets/gudbud/hot-fudge-sundae.jpg.webp"
+import dbc from "../assets/gudbud/dbc.webp"
+import dryfruitsunday from "../assets/gudbud/dryfruit icecream.webp"
+import chocomania from "../assets/gudbud/choco mania.webp"
+import nutellabrown from "../assets/gudbud/nutela browni.jpg"
+import nutelafudge from "../assets/gudbud/nutea fudge.jpg"
+import maharaja from "../assets/gudbud/shivu special.jpg"
+
+import badam from "../assets/icecreame/badam.webp"
+import dryfruit from "../assets/icecreame/dryfruit.webp"
+import falloda from "../assets/icecreame/falooda.webp"
+import kesar from "../assets/icecreame/Kesar-Falooda.webp"
+import kulfi from "../assets/icecreame/kulfi.webp"
+import mongo from "../assets/icecreame/mongo.webp"
+import rabdi from "../assets/icecreame/rabdi.webp"
+
+import bananam from "../assets/milkshake/banana_milkshake.webp"
+import browniwm from "../assets/milkshake/Brownie-Milkshake.jpg"
+import butterm from "../assets/milkshake/butterscotch.webp"
+import coffem from "../assets/milkshake/Coffee-Milkshake.webp"
+import darkm from "../assets/milkshake/dark-chocolate-milkshake-1.webp"
+import drym from "../assets/milkshake/dryfruite milshake.webp"
+import kitkatm from "../assets/milkshake/kitkat-Milkshake.webp"
+import mongom from "../assets/milkshake/mango-milkshake.webp"
+import nutellam from "../assets/milkshake/Nutella-Milkshake.webp"
+import oreom from "../assets/milkshake/oreo milkshake.webp"
+import pistam from "../assets/milkshake/pista.jpg"
+import staberrym from "../assets/milkshake/Strawberry-Milkshake.webp"
+import vanilam from "../assets/milkshake/Vanilla-Milkshake.webp"
+import blackcurrent from "../assets/milkshake/blackcurrent.webp"
+
 export const BreakfastItems = [
     {
         id:1,
@@ -616,5 +649,238 @@ export const LimeItems = [
         name:"Fruite Salad With IceCream",
         price:"90₹",
         image:fruitsaladice
+    }
+]
+
+export const fallodaItems = [
+    {
+        id:1,
+        name:"IceCream Falooda",
+        price:"80₹",
+        image:falloda
+    },  
+    {
+        id:2,
+        name:"Kulfi Falooda",
+        price:"100₹",
+        image:kulfi
+    },
+    {
+        id:3,
+        name:"Badam Falooda",
+        price:"100₹",
+        image:badam
+    },
+    {
+        id:4,
+        name:"Dry Fruit Falooda",
+        price:"120₹",
+        image:dryfruit
+    },   
+    {
+        id:5,
+        name:"Kesar Falooda",
+        price:"100₹",
+        image:kesar
+    },
+    {
+        id:6,
+        name:"Special Mongo Falooda",
+        price:"110₹",
+        image:mongo
+    },
+    {
+        id:7,
+        name:"Rabdi Falooda",
+        price:"120₹",
+        image:rabdi
+    }
+]
+
+export const icecreamItems = [
+    {
+        id:1,
+        name:"Gud Bud",
+        price:"130₹",
+        image:gudbud
+    },  
+    {
+        id:2,
+        name:"Hot Chocolate Browney",
+        price:"90₹",
+        image:chocolatebrownie
+    },
+    {
+        id:3,
+        name:"Hot Chocolate Fudge (1,2,3 Scoops)",
+        price:"60₹,80₹,100₹",
+        image:chocolateFudge
+    },
+    {
+        id:4,
+        name:"DBC",
+        price:"130₹",
+        image:dbc
+    },   
+    {
+        id:5,
+        name:"Dry Fruit Sundaes",
+        price:"130₹",
+        image:dryfruitsunday
+    },
+    {
+        id:6,
+        name:"Choco Mania (Tres Leaches)",
+        price:"90₹",
+        image:chocomania
+    },
+    {
+        id:7,
+        name:"Nutella Browne",
+        price:"100₹",
+        image:nutellabrown
+    },
+    {
+        id:8,
+        name:"Nutella Fudge",
+        price:"90₹",
+        image:nutelafudge
+    },
+    {
+        id:9,
+        name:"Maharaja Sundae (Shivis Special)",
+        price:"150₹",
+        image:maharaja
+    }
+]
+
+export const milkshakeItems = [
+    {
+        id:1,
+        name:"Oreo",
+        price:"70₹",
+        image:oreom
+    },  
+    {
+        id:2,
+        name:"Vanilla",
+        price:"50₹",
+        image:vanilam
+    },
+    {
+        id:3,
+        name:"KitKat",
+        price:"70₹",
+        image:kitkatm
+    },
+    {
+        id:4,
+        name:"Straberry",
+        price:"60₹",
+        image:staberrym
+    },   
+    {
+        id:5,
+        name:"Nutella",
+        price:"70₹",
+        image:nutellam
+    },
+    {
+        id:6,
+        name:"Mango",
+        price:"60₹",
+        image:mongom
+    },
+    {
+        id:7,
+        name:"Pista",
+        price:"60₹",
+        image:pistam
+    },
+    {
+        id:8,
+        name:"Butterscotch",
+        price:"70₹",
+        image:butterm
+    },
+    {
+        id:9,
+        name:"Blackcurrent",
+        price:"60₹",
+        image:blackcurrent
+    }
+    ,
+    {
+        id:10,
+        name:"Dryfruit",
+        price:"80₹",
+        image:drym
+    },
+    {
+        id:11,
+        name:"ColdCoffee",
+        price:"60₹",
+        image:coffem
+    },
+    {
+        id:12,
+        name:"Browney",
+        price:"90₹",
+        image:browniwm
+    },
+    {
+        id:13,
+        name:"Banana",
+        price:"60₹",
+        image:bananam
+    },
+    {
+        id:14,
+        name:"Chocolate",
+        price:"70₹",
+        image:darkm
+    }
+]
+
+export const foodsectionitems = [
+    {
+        id:1,
+        image:gobi
+    },
+    {
+        id:2,
+        image:specialDosa
+    },
+    {
+        id:3,
+        image:panipuri
+    },
+    {
+        id:4,
+        image:chiblu
+    },
+    {
+        id:5,
+        image:mintmojito
+    },
+    {
+        id:6,
+        image:orange
+    },
+    {
+        id:7,
+        image:perifries
+    },
+    {
+        id:8,
+        image:rabdi
+    },
+    {
+        id:9,
+        image:chocolateFudge
+    },
+    {
+        id:10,
+        image:mashroomchilli
     }
 ]

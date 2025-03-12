@@ -13,22 +13,22 @@ const Juice = () => {
       </div>
       <MenuNav />
       <div className='flex justify-center my-10 text-[20px] '>
-        <span className='underlinee'>Juice</span>
+        <span className='underlinee font-bold'>Juice</span>
       </div>
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Fruit-Juice
+      <span className='underline font-semibold'>Fruit-Juice</span>
       </div>
       <FruiteJuiceComponent />
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Sugarcane-Juice
+      <span className='underline font-semibold'>Sugarcane-Juice</span>
       </div>
       <SugarCaneComponent />
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Lime And Mojitos
+      <span className='underline font-semibold'>Lime And Mojitos</span>
       </div>
       <LimeComponent />
       <div className='flex justify-center'>
-        <Link to={"/"}>Back To Home</Link>
+        <Link to={"/"} className='text-[#e4ac34] font-bold'>Back To Home</Link>
       </div>
     </section>
   )

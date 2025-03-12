@@ -16,34 +16,34 @@ const Chats = () => {
       </div>
       <MenuNav />
       <div className='flex justify-center my-10 text-[20px] '>
-        <span className='underlinee'>Chats</span>
+        <span className='underlinee font-bold'>Chats</span>
       </div>
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        PaniPuri
+      <span className='underline font-semibold'>PaniPuri</span>
       </div>
       <PaniPuriComponent />
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Gobi
+      <span className='underline font-semibold'>Gobi</span>
       </div>
       <GobiComponent />
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Sandwitch
+      <span className='underline font-semibold'>Sandwitch</span>
       </div>
       <SandwitchComponent />
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        French Fries
+      <span className='underline font-semibold'>French Fries</span>
       </div>
       <FrenchFriesComponent />
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Fried Rice
+      <span className='underline font-semibold'>Fried Rice</span>
       </div>
       <RiceComponent />
       <div className='flex justify-start mt-10 pl-10 text-[20px] tracking-widest '>
-        Momos
+      <span className='underline font-semibold'>Momos</span>
       </div>
       <MomosComponent />
       <div className='flex justify-center'>
-        <Link to={"/"}>Back To Home</Link>
+        <Link to={"/"} className='text-[#e4ac34] font-bold'>Back To Home</Link>
       </div>
     </section>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeCards from './HomeCards'
+import { Link } from 'react-router-dom'
 
 const FoodsSection = () => {
     return (
@@ -10,7 +11,10 @@ const FoodsSection = () => {
                 </div>
             </div>
             <div>
-                <HomeCards/>
+                <Link to={"/meals"}>
+                    <HomeCards />
+                </Link>
+
             </div>
         </section>
     )

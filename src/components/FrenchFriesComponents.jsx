@@ -11,7 +11,7 @@ const FrenchFriesComponent = () => {
                             <img src={items.image} className='h-auto w-full
                                 object-cover rounded-2xl '></img>
 
-                            <div className='flex justify-between py-1 text-[18px] gap-1'>
+                            <div className='flex justify-between py-1 text-[12px] md:text-[18px] gap-1'>
                                 <div>{items.name}</div>
                                 <div>{items.price}</div>
                             </div>

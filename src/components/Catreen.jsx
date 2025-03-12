@@ -17,7 +17,7 @@ const Catreen = () => {
         <div className='w-full absolute mx-auto mt-50'>
           <div className='bg-[#dcdc447b] border-2 border-black h-70 lg:mx-70 md:mx-40 mx-10 rounded-3xl '>
             <div className='justify-center flex items-center my-20 flex-col'>
-              <div className='text-[40px] font-bold'>
+              <div className='text-[35px] font-bold'>
                 Catreen Services
               </div>
               <p className='mt-5 tracking-wide'>

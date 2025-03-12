@@ -9,17 +9,22 @@ const Catreen = () => {
         message: ""
     })
 
+    const handleform = (e) => {
+        e.preventDefault()
+        
+    }
+
     return (
         <section>
             <div className='max-w-7xl mx-auto'>
                 <Navbar />
 
                 <div className='w-full my-10 h-auto'>
-                    <div className='flex justify-center text-5xl'>
+                    <div className='flex justify-center text-4xl'>
                         <span className='underlinee'>Enter The Details</span>
                     </div>
 
-                    <form className='space-y-3'>
+                    <form className='space-y-3' onSubmit={handleform}>
                         <div className='relative space-y-3 mt-10 mx-5 md:mx-10'>
                             <input
                                 type='text'
@@ -66,7 +71,7 @@ const Catreen = () => {
                         </div>
 
                         <div className='lg:mx-80 md:mx-50 mx-15'>
-                            <button type="submit" className="w-full p-2 font-bold text-[18px] lg:text-[20px] tracking-widest md:tracking-wide border-[#e4ac34] 
+                            <button type="submit" className="w-full p-2 font-bold text-[15px] lg:text-[20px] tracking-widest md:tracking-wide border-[#e4ac34] 
                         border-5 rounded-lg cursor-pointer hover:bg-gradient-to-r from-[#E6A728] to-[#DFDF44]">
                                 Get A Call
                             </button>
